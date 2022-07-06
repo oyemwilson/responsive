@@ -1,0 +1,243 @@
+
+.topnav{
+    display: flex;
+    justify-content: space-between;
+    padding: 4em;
+
+}
+#top{
+    background-image: url(./bg-hero-desktop.svg);
+    background-color: #edfbfe;
+}
+@media screen and (max-width: 1000px){
+    #top{
+        background-image: url(./bg-hero-mobile.svg);
+    }
+}
+
+button {
+    padding: 15px 38px;
+    background: white;
+    border: none;
+    border-radius: 25px;
+    color: black;
+    font-family: Helvetica, Arial, Sans-serif;
+    font-size: 1em;
+    transform-origin: 50% 5em;
+    cursor: pointer;
+}
+
+button {
+    animation: wiggle 2s linear infinite;
+  }
+  
+  /* Keyframes */
+  @keyframes wiggle {
+    0%, 7% {
+      transform: rotateZ(0);
+    }
+    15% {
+      transform: rotateZ(-15deg);
+    }
+    20% {
+      transform: rotateZ(10deg);
+    }
+    25% {
+      transform: rotateZ(-10deg);
+    }
+    30% {
+      transform: rotateZ(6deg);
+    }
+    35% {
+      transform: rotateZ(-4deg);
+    }
+    40%, 100% {
+      transform: rotateZ(0);
+    }
+  }
+  
+  
+
+.get-started {
+    background-color: #fe52c0;
+    color: white;
+    padding: 15px 25px;
+    text-decoration: none;
+    border-radius: 25px;
+    
+}
+.community{
+    display: flex;
+    padding: 4em;
+    flex: 1 1 0;
+}
+
+.text{
+    width: 60%;
+    margin-right: auto;
+    margin-top: 80px;
+}
+
+.text-button{
+    padding-top: 20px;
+}
+
+.community img{
+    max-width: 100%;
+}
+@media screen and (max-width: 1000px){
+    .text{
+        margin-top: 0;
+    }
+}
+@media screen and (max-width: 700px){
+    .community{
+       display: inline-block;
+       text-align: center;
+       justify-content: center;
+    }
+    .text{
+        margin-right: 0;
+        width: 100%;
+        padding-bottom: 30px;
+    }
+}
+
+
+.grow-together{
+    display: flex;
+    padding: 4em;
+    flex: 1 1 0;
+    border: 1px solid #888888;
+    margin-top: 50px;
+
+}
+.grow-together img{
+    max-width: 100%;
+}
+.grow{
+    width: 60%;
+    
+}
+.grow-text{
+    margin: auto;
+
+}
+
+
+@media screen and (max-width: 700px){
+    .grow-together{
+        display: flex;
+        flex-direction: column-reverse ;
+        text-align: center;
+        justify-content: center;
+
+    }
+    .grow{
+        margin-right: 0;
+        width: 100%;
+    }
+}
+
+.flowing{
+    display: flex;
+    padding: 4em;
+    flex: 1 1 0;
+    border: 1px solid #888888;
+    margin-top: 50px;
+
+}
+.flowing img {max-width: 100%;}
+
+.flow{
+    width: 70%;
+}
+
+.flow-text{
+    margin: auto;
+    padding-left: 100px;
+}
+
+@media screen and (max-width: 700px){
+    .flowing{
+        display: inline-block;
+        text-align: center;
+        justify-content: center;
+    }
+    .grow{
+        margin-right: 0;
+        width: 100%;
+    }
+}
+
+.your-user{
+    display: flex;
+    padding: 4em;
+    flex: 1 1 0;
+    border: 1px solid #888888;
+    margin-top: 50px;
+}
+
+.your-user img{
+    max-width: 100%;
+}
+
+.user{
+    width: 60%;
+}
+
+.user-text{
+    margin: auto;
+}
+
+@media screen and (max-width: 700px){
+    .your-user{
+        display: flex;
+        flex-direction: column-reverse ;
+        text-align: center;
+        justify-content: center;
+        margin-top: 50px;
+    }
+    .user{
+        margin-right: 0;
+        width: 100%;
+    }
+}
+.foot{
+    display: flex;
+    padding: em;
+    flex: 1 1 0;
+    width: 100%;
+    justify-content: space-around;
+    color: white;
+   
+
+}
+footer img{
+    padding-left: 100px;
+}
+.location, .number, .email{
+    display: flex;
+    height: 100%;
+}
+
+.location, .number , .email{
+    height: 30px;
+}
+.ready{
+    text-align: center;
+    box-sizing: border-box;
+    border: 1px solid #888888;
+    width: 500px;
+    padding-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+
+    
+}
+footer{
+    background-color: black;
+}
+.one{
+    line-height: 60px;
+}
